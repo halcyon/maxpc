@@ -1,0 +1,53 @@
+# execution time (/10000), GC%
+
+# master
+## sexp
+0   20.9
+0.5 5.25
+
+## des.
+1.5 48.4
+2   3.68
+
+## bare des.
+3   8.4315
+3.5 4.87
+
+# special-case
+## sexp
+4.5 35.9
+5   4.47
+
+## des.
+6   47.4070
+6.5 2.62
+
+## bare des.
+7.5 3.4464
+8   0
+
+# consfree-input
+## sexp
+9   22.3865
+9.5 2.79
+
+## des.
+10.5 61.0562
+11   2.77
+
+## bare des.
+12   8.1334
+12.5 8.93
+
+# consfree-input + special-case
+## sexp
+13.5 36.9
+14   3.34
+
+## des.
+15   56.6
+15.5 0.38
+
+## bare des.
+16.5 3.4947
+17   0
